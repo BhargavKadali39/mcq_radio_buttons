@@ -1,4 +1,4 @@
-# mcq_radio_buttons
+# neumorphic_mcq_radioButtons
 single mcq designed using radio buttons and Neumorphsm.
 
 Get hands-on trail on my code pen account
