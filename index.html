@@ -1,1 +1,55 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="radiogroup">
+        <p class="question">Select CRUD operation</p>
+        <div class="wrapper">
+          <input class="state" type="radio" name="app" id="create1" value="create1">
+          <label class="label" for="create1">
+            <div class="indicator"></div>
+            <span class="text">a) create</span>
+          </label>
+        </div>
+        <div class="wrapper">
+          <input class="state" type="radio" name="app" id="read2" value="read2">
+          <label class="label" for="read2">
+            <div class="indicator"></div>
+            <span class="text">b) read</span>
+          </label>
+        </div>
+
+        <div class="wrapper">
+          <input class="state" type="radio" name="app" id="update3" value="update3">
+          <label class="label" for="update3">
+            <div class="indicator"></div>
+            <span class="text">c) update</span>
+          </label>
+        </div>
+        <div class="wrapper">
+          <input class="state" type="radio" name="app" id="delete4" value="delete4">
+          <label class="label" for="delete4">
+            <div class="indicator"></div>
+            <span class="text">d) delete</span>
+          </label>
+        </div>
+        <div class="wrapper">
+            <input class="state" type="radio" name="app" id="answer" value="answer">
+            <label class="label" for="answer">
+              <div class="indicator"></div>
+              <span class="text">e) all of the above</span>
+            </label>
+          </div>
+          <button id="btn" onclick=" checkButton()">Submit</button>
+    </div>
+</body>
+</html>
+<!-- onclick=" checkButton()" -->
