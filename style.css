@@ -1,5 +1,4 @@
 
-
 html {
     box-sizing: border-box;
   }
@@ -107,18 +106,21 @@ html {
     opacity: 1;
   }
 
-  #btn{
+  .but{
       margin: 15px 0 0 52px;
       padding: 10px;
       border: none;
       background-color: #ecf0f3;
       box-shadow:-4px -2px 4px 0px #fff,4px 2px 8px 0px #d1d9e6;
-      transition: all .2s linear;
+      transition: all .2s cubic-bezier(0.57, -1.09, 0.27, 1.55);
 
   }
-  #btn:active{
+  .but:active{
     box-shadow:
     -4px -2px 4px 0px #d1d9e6,
     4px 2px 8px 0px #fff;
+    transition: all .2s cubic-bezier(0, -0.79, 0.09, 1.05);
 
   }
+
+  
